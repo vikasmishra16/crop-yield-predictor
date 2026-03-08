@@ -16,11 +16,12 @@ A lightweight Crop Yield and Fertilizer Recommendation system with a Gradio GUI.
 - Optional: Streamlit or simple Flask UI for deployment
 - Dockerfile included for containerized deployment
 
-## Quick start (dev)
-1. Unzip and open project:
-   ```bash
-   unzip "/mnt/data/crop yield app-20251117T161133Z-1-001.zip" -d crop-yield-predictor
+## Quick Start
+```bash
+   git clone https://github.com/vikasmishra16/crop-yield-predictor.git
    cd crop-yield-predictor
    python -m venv .venv
-   source .venv/bin/activate
+   source .venv/bin/activate  # Windows: .venv\Scripts\activate
    pip install -r requirements.txt
+   python app.py
+```
